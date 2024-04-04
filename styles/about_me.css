@@ -1,0 +1,142 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.container-about-me {
+    width: 80%;
+    height: 100%;
+    padding: 0 60px;
+}
+
+.container-picture-name {
+    display: flex;
+    align-items: center;
+}
+
+.img-about-me {
+    width: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 25px 40px 0;
+}
+
+.description-about-me {
+    max-width: 500px;
+    color: #F6F6F6;
+    font-family: inter;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    text-align: justify;
+}
+
+.description-skills-about-me {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 40px 0 0 0;
+}
+
+.container-icons {
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.icons {
+    width: 30px;
+    margin: 20px 0 0 0;
+}
+
+@media only screen and (max-width: 1025px) {
+    .img-about-me {
+        display: none;
+    }
+    .container-about-me {
+        padding: 0 40px;
+    }
+    .description-about-me {
+        font-size: 1.4rem;
+        line-height: 2.3rem;
+    }
+    .white-subtitles {
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media only screen and (max-width: 860px) {
+    .container {
+        padding: 0 0 0 80px;
+    }
+    .container-about-me {
+        width: 100%;
+        height: 100%;
+        padding: 30px 30px;
+    }
+    .description-skills-about-me {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin: 80px 0;
+    }
+    .description-about-me {
+        max-width: 330px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0;
+    }
+    .container-about-me {
+        width: 100%;
+        height: 100%;
+        padding: 30px 30px;
+    }
+    .description-skills-about-me {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin: 40px 0 0 0;
+    }
+    .description-about-me {
+        max-width: 330px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        padding: 0 10px;
+    }
+    .container-about-me {
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+    }
+    .description-skills-about-me {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 20px 0 0 0;
+    }
+    .description-about-me {
+        max-width: 330px;
+    }
+    .container-icons {
+        width: 200px;
+    }
+    .description-about-me {
+        font-size: 1.3rem;
+    }
+}
+

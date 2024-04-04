@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #101628;
+}
+
+@font-face {
+    font-family: ink;
+    src: url(../fonts/Ink/Ink.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../fonts/static/Inter-Regular.ttf);
+}
+
+.titles {
+    font-family: ink;
+    font-size: 6rem;
+    text-align: center;
+    color: #FE533D;
+    padding: 60px 0;
+}
+
+.subtitles {
+    font-family: ink;
+    font-size: 4rem;
+    color: #FE533D;
+    line-height: 6rem;
+}
+
+.white-subtitles, .white-subtitles-header {
+    font-family: ink;
+    font-size: 2.5rem;
+    color: #F6F6F6;
+}
+
+.items-menu {
+    font-family: inter;
+    font-size: 2rem;
+    color: #FE533D;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .titles {
+        padding: 30px 0;
+        font-size: 5rem;
+    }
+    .subtitles {
+        font-size: 3rem;
+    }
+    .items-menu, .white-subtitles, .white-subtitles-header {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .img-about-me {
+        display: none;
+    }
+    .white-subtitles, .white-subtitles-header {
+        font-size: 1.6rem;
+    }
+    
+}
+
+@media only screen and (max-width: 860px) {
+    .titles {
+        padding: 60px 0;
+        font-size: 4rem;
+    }
+    .subtitles {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .titles {
+        padding: 60px 0;
+        font-size: 4rem;
+    }
+    .subtitles {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .titles {
+        padding: 30px 0;
+        font-size: 3rem;
+    }
+    .subtitles {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .titles {
+        padding: 10px 0;
+        font-size: 3rem;
+    }
+    .subtitles {
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+}
+

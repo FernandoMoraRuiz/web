@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+}
+
+.container-achievements {
+    width: 80%;
+    padding: 0 60px;
+}
+
+.container-certificates {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ux-ui-certificate, .ws-certificate {
+    width: 40%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1025px) {
+    .ux-ui-certificate, .ws-certificate {
+        min-width: 305px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .ux-ui-certificate, .ws-certificate {
+        min-width: 280px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-achievements {
+        width: 100%;
+        padding: 0 60px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .ux-ui-certificate, .ws-certificate {
+        min-width: 240px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        padding: 0 10px;
+    }
+    .container-achievements {
+        padding: 40px 0;
+    }
+    .container-certificates {
+        margin: 10px 0;
+    }
+    .ux-ui-certificate, .ws-certificate {
+        min-width: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+    .container-achievements {
+        padding: 40px 0;
+    }
+    .container-certificates {
+        margin: 0 0;
+    }
+    .ux-ui-certificate, .ws-certificate {
+        min-width: 180px;
+    }
+}
+
+@media only screen and (max-height: 720px) {
+    .ux-ui-certificate, .ws-certificate {
+        min-width: 200px;
+    }
+}
