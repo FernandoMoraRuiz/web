@@ -38,6 +38,7 @@
 }
 
 .btn-menu {
+    display: block;
     font-family: inter;
     font-size: 2rem;
     background: #FE533D;
